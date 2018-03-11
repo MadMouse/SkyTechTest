@@ -1,0 +1,13 @@
+<android.support.v7.widget.RecyclerView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/movieList"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="?attr/card_Margin"
+    android:layout_marginRight="?attr/card_Margin"
+    app:layoutManager="LinearLayoutManager"
+    tools:context="com.sky.techtest.ui.activities.MovieActivity"
+    tools:listitem="@layout/card_movie"/>

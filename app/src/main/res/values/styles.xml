@@ -1,0 +1,112 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="colorBackgroundPressed">@color/colorBackgroundPressed</item>
+        <item name="colorBackgroundDefault">@color/colorBackgroundDefault</item>
+
+        <item name="colorBrandPrimary">@color/colorPrimary</item>
+        <item name="colorBrandPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorBrandSecondary">@color/colorSecondary</item>
+        <item name="colorBrandSecondaryDark">@color/colorSecondaryDark</item>
+        <item name="colorBrandAccent">@color/colorAccent</item>
+
+        <item name="colorBrandTitle">@color/colorBrandTitle</item>
+        <item name="colorBrandTitleInverse">@color/colorBrandTitleInverse</item>
+        <item name="colorBrandSubTitle">@color/colorBrandSubTitle</item>
+        <item name="colorBrandSubTitleInverse">@color/colorBrandSubTitleInverse</item>
+        <item name="colorBrandBackground">@color/colorBrandBackground</item>
+        <item name="colorBrandDivider">@color/colorBrandDivider</item>
+        <item name="colorBrandGood">@color/colorBrandGood</item>
+        <item name="colorBrandWarning">@color/colorBrandWarning</item>
+        <item name="colorBrandError">@color/colorBrandError</item>
+
+        <item name="card_Background">@color/cardview_light_background</item>
+        <item name="card_MinWidth">@dimen/card_MinWidth</item>
+        <item name="card_MinHeight">@dimen/card_MinHeight</item>
+        <item name="card_CornerRadius">@dimen/card_CornerRadius</item>
+        <item name="card_Elevation">@dimen/card_Elevation</item>
+        <item name="card_Margin">@dimen/card_Margin</item>
+        <item name="card_padding">@dimen/card_padding</item>
+
+        <item name="card_BookWidth">@dimen/card_BookWidth</item>
+        <item name="card_BookHeight">@dimen/card_BookHeight</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style> <style name="AppTheme.PagerTitleStrip">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">top</item>
+        <item name="android:background">?attr/colorBrandSecondary</item>
+        <item name="android:elevation">?attr/card_Elevation</item>
+
+        <item name="android:paddingTop">?attr/card_padding</item>
+        <item name="android:paddingBottom">?attr/card_padding</item>
+        <item name="android:textAppearance">@style/TextAppearance.Title</item>
+
+
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="AppTheme.CardView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">?attr/card_MinWidth</item>
+        <item name="android:minHeight">?attr/card_MinHeight</item>
+        <item name="cardBackgroundColor">?attr/card_Background</item>
+        <item name="cardCornerRadius">?attr/card_CornerRadius</item>
+        <item name="cardElevation">?attr/card_Elevation</item>
+        <item name="cardPreventCornerOverlap">false</item>
+        <item name="cardUseCompatPadding">true</item>
+    </style>
+
+    <style name="AppTheme.CardView.Book">
+        <item name="android:layout_width">?attr/card_BookWidth</item>
+        <item name="android:layout_height">?attr/card_BookHeight</item>
+    </style>
+    <style name="AppTheme.CardView.Detail">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">30dp</item>
+        <item name="cardBackgroundColor">?attr/card_Background</item>
+        <item name="cardCornerRadius">?attr/card_CornerRadius</item>
+        <item name="cardElevation">?attr/card_Elevation</item>
+        <item name="cardPreventCornerOverlap">false</item>
+        <item name="cardUseCompatPadding">true</item>
+    </style>
+
+    <style name="TextAppearance.Title" parent="Base.TextAppearance.AppCompat.Headline">
+        <item name="android:textSize">@dimen/font_16</item>
+        <item name="android:textColor">?attr/colorBrandTitle</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="TextAppearance.Title.Inverse">
+        <item name="android:textColor">?attr/colorBrandTitleInverse</item>
+    </style>
+
+    <style name="TextAppearance.SubTitle" parent="Base.TextAppearance.AppCompat.Subhead">
+        <item name="android:textSize">@dimen/font_12</item>
+        <item name="android:textColor">?attr/colorBrandSubTitle</item>
+        <item name="android:fontFamily">sans-serif</item>
+
+    </style>
+
+    <style name="TextAppearance.SubTitle.Inverse">
+        <item name="android:textColor">?attr/colorBrandSubTitle</item>
+    </style>
+
+</resources>

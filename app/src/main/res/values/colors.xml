@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorBackgroundPressed">#00BB00</color>
+    <color name="colorBackgroundDefault">@android:color/background_light</color>
+
+    <color name="colorBackgroundFrosted">#C59C9C9C</color>
+    <color name="colorSecondary">#9d06f9f9</color>
+    <color name="colorSecondaryDark">#f306c2f5</color>
+
+    <color name="colorBrandTitle">@android:color/primary_text_light</color>
+    <color name="colorBrandTitleInverse">@android:color/primary_text_dark</color>
+    <color name="colorBrandSubTitle">@android:color/darker_gray</color>
+    <color name="colorBrandSubTitleInverse">@android:color/white</color>
+    <color name="colorBrandBackground">@android:color/background_light</color>
+    <color name="colorBrandDivider">@android:color/darker_gray</color>
+    <color name="colorBrandGood">@android:color/holo_green_dark</color>
+    <color name="colorBrandWarning">@android:color/holo_orange_light</color>
+    <color name="colorBrandError">@android:color/holo_red_dark</color>
+
+
+
+
+
+</resources>

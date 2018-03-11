@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="colorBrandPrimary" format="color|reference"/>
+    <attr name="colorBrandPrimaryDark" format="color|reference"/>
+    <attr name="colorBrandSecondary" format="color|reference"/>
+    <attr name="colorBrandSecondaryDark" format="color|reference"/>
+    <attr name="colorBrandAccent" format="color|reference"/>
+
+    <attr name="colorBrandTitle" format="color|reference"/>
+    <attr name="colorBrandTitleInverse" format="color|reference"/>
+    <attr name="colorBrandSubTitle" format="color|reference"/>
+    <attr name="colorBrandSubTitleInverse" format="color|reference"/>
+    <attr name="colorBrandBackground" format="color"/>
+    <attr name="colorBrandDivider" format="color"/>
+    <attr name="colorBrandGood" format="color"/>
+    <attr name="colorBrandWarning" format="color"/>
+    <attr name="colorBrandError" format="color"/>
+
+    <attr name="colorBackgroundPressed" format="color"/>
+    <attr name="colorBackgroundDefault" format="color"/>
+
+
+    <attr name="card_Background" format="color|reference"/>
+    <attr name="card_MinWidth" format="dimension" />
+    <attr name="card_MinHeight" format="dimension" />
+    <attr name="card_CornerRadius" format="dimension" />
+    <attr name="card_Elevation" format="dimension" />
+    <attr name="card_Margin" format="dimension" />
+    <attr name="card_padding" format="dimension" />
+
+    <attr name="card_BookWidth" format="dimension" />
+    <attr name="card_BookHeight" format="dimension" />
+
+
+    <attr name="drawableFavourite" format="reference" />
+    <attr name="drawableFavouriteSelected" format="reference" />
+    <attr name="drawableSeries" format="reference" />
+    <attr name="drawableAvailable" format="reference" />
+
+</resources>

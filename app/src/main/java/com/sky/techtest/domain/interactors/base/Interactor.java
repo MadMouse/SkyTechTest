@@ -1,0 +1,13 @@
+package com.sky.techtest.domain.interactors.base;
+
+/**
+ * Created by leslied on 11/03/2018.
+ */
+public interface Interactor {
+
+    /**
+     * This is the main method that starts an interactor. It will make sure that the interactor operation is done on a
+     * background thread.
+     */
+    void execute();
+}
